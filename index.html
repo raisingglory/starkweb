@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+   <!--header-->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#"><img src="/images/stark.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Product</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categories
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Shoes</a></li>
+            <li><a class="dropdown-item" href="#">Hoodies</a></li>
+            <li><a class="dropdown-item" href="#">T shirt</a></li>
+            <li><a class="dropdown-item" href="#">Watches</a></li>
+            
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="#">
+                <div class="wrapper">
+                    <i class="bi bi-cart3"></i>
+                    <span class="badge">0</span>
+                </div>
+            </a>
+          </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">log in</a>
+          </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!--header done-->
+
+<!--carousel-->
+<div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/images/hoodie4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/images/shirt4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/images/shoe3.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="" aria-hidden="true"><i class="bi bi-arrow-left-square-fill"></i></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="" aria-hidden="true"><i class="bi bi-arrow-right-square-fill"></i></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--carousel done-->
+
+<!--content-->
+<div class="container">
+    <h1 class="text-center text-capitalize title">featured product</h1>
+    <div class="row feat">
+        <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="/images/hoodie.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">Hoodie 1</h5>
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text float-end">N500</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="featcat">hoodies</p>
+                    </div>
+                </div>
+        </div>
+        <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="/images/shioe1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">shoe 1</h5>
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text float-end">N500</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="featcat">shoes</p>
+                    </div>
+                </div>
+        </div>
+        <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="/images/watch1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">watch 1</h5>
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text float-end">N500</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="featcat">Watch</p>
+                    </div>
+                </div>
+        </div>
+        <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="/images/hoodie2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">Hoodie 2</h5>
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text float-end">N500</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="featcat">hoodies</p>
+                    </div>
+                </div>
+        </div>
+        <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="/images/shirt3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">T shirt 1</h5>
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text float-end">N500</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="featcat">T shirt</p>
+                    </div>
+                </div>
+        </div>
+        <div class="col-12 col-md-4">
+                <div class="card">
+                    <img src="/images/watch2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-6">
+                                <h5 class="card-title">watch 2</h5>
+                            </div>
+                            <div class="col-6">
+                                <p class="card-text float-end">N500</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p class="featcat">watch</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+
+ <div class="container-fluid mt-5 mb-5">
+       <div class="row">
+         <div class="col-12 col-md-3 info">
+            <div class="left">
+                <i class="bi bi-truck"></i>
+            </div>
+            <div class="right">
+                <h3>Free shipping</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quasi!</p>
+             </div>
+        </div>
+        <div class="col-12 col-md-3 info">
+            <div class="left">
+                <i class="bi bi-credit-card-2-front-fill"></i>
+            </div>
+            <div class="right">
+                <h3>Secure payment</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quasi!</p>
+             </div>
+        </div>
+        <div class="col-12 col-md-3 info">
+            <div class="left">
+                <i class="bi bi-cash"></i>
+            </div>
+            <div class="right">
+                <h3>14-days return</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quasi!</p>
+             </div>
+        </div>
+        <div class="col-12 col-md-3 info">
+            <div class="left">
+                <i class="bi bi-headset"></i>
+            </div>
+            <div class="right">
+                <h3>24/7 support</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, quasi!</p>
+             </div>
+        </div>
+    </div>
+ </div>
+<!--content done-->
+
+<!--footer-->
+ <div class="container-fluid mt-5 foot">
+     <div class="row">
+         <div class="col-12 col-md-6 col-lg-3">
+            <h2>Team Starkweb</h2>
+            <img src="/images/stark (1).png" alt="">
+         </div>
+         <div class="col-12 col-md-6 col-lg-3">
+            <h2>Useful links</h2>
+            <ul class="list unstyled">
+                <li><a href="">home</a></li>
+                <li><a href="">shop</a></li>
+                <li><a href="">category</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+         </div>
+         <div class="col-12 col-md-6 col-lg-3">
+            <h2>shipping</h2>
+            <ul class="list unstyled">
+                <li><a href="">online payment</a></li>
+                <li><a href="">return policy</a></li>
+                <li><a href="">privacy policy</a></li>
+                <li><a href="">terms and condition</a></li>
+            </ul>
+         </div>
+         <div class="col-12 col-md-6 col-lg-3">
+            <h2>follow our socials</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi, repellat!</p>
+            <ul class="list unstyled">
+                <li class="list-inline-item"><i class="bi bi-facebook"></i></li>
+                <li class="list-inline-item"><i class="bi bi-instagram"></i></li>
+                <li class="list-inline-item"><i class="bi bi-twitter"></i></li>
+                <li class="list-inline-item"><i class="bi bi-tiktok"></i></li>
+            </ul>
+         </div>
+     </div>
+ </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
